@@ -176,3 +176,34 @@ body {
 /* portfolio */
 /* portfolio */
 /* portfolio */
+.portfolio {
+  background-color: #e5e5e5;
+}
+.pointer {
+  cursor: pointer;
+  background-color: #f5f4fa;
+}
+.pointer:hover {
+  background-color: #2196f3;
+}
+.pointer:active {
+  color: #ffffff;
+}
+.portfolio-tatle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
