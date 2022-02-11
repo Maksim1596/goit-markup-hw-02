@@ -1,7 +1,5 @@
 body {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   color: #212121;
 }
@@ -11,8 +9,7 @@ body {
 }
 .logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
@@ -22,6 +19,9 @@ body {
   color: #212121;
 }
 /* header site-nav*/
+li {
+  list-style-type: none;
+}
 .site-nav-link {
   font-family: Roboto;
   font-style: normal;
@@ -36,6 +36,7 @@ body {
   color: #2196f3;
 }
 /* header auth-nav */
+
 .auth-nav-link {
   font-family: Roboto;
   font-style: normal;
@@ -73,7 +74,7 @@ body {
 .specifics-title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -93,7 +94,7 @@ body {
 .work-title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
@@ -137,7 +138,7 @@ body {
 .footer-logo {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -146,21 +147,19 @@ body {
 .footer-studio {
   color: #ffffff;
 }
-.foter-map {
-  font-family: Roboto;
+.footer-map {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.foter-map:hover,
-.foter-map:focus {
+.footer-map:hover,
+.footer-map:focus {
   color: #2196f3;
 }
 
-.foter-link {
+.footer-link {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -169,17 +168,18 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.foter-link:hover,
-.foter-link:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: #2196f3;
 }
 /* portfolio */
 /* portfolio */
 /* portfolio */
 .portfolio {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 .pointer {
+  font-family: inherit;
   cursor: pointer;
   background-color: #f5f4fa;
 }
